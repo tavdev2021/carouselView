@@ -2,6 +2,7 @@ package com.example.carouselview
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import com.synnapps.carouselview.CarouselView
 import com.synnapps.carouselview.ImageListener
 
@@ -26,6 +27,12 @@ class MainActivity : AppCompatActivity() {
         carouselView!!.pageCount = imageArray.size
 
         carouselView!!.setImageListener(imageListener)
+
+        val btncerrar = findViewById<Button>(R.id.btnsalir)
+
+        btncerrar.setOnClickListener {
+           this.finishAffinity()
+        }
 
     }
 
