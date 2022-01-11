@@ -15,7 +15,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CarouselView y CardView Kotlin"
+        android:text="@string/carouselview_y_cardview_kotlin"
         android:textAlignment="center"
         android:textSize="25sp"
         android:textStyle="italic"

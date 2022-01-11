@@ -1,4 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">carouselView</string>
     <string name="carouselview_y_cardview_kotlin">CarouselView y CardView Kotlin</string>
 </resources>
